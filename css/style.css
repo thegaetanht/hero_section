@@ -16,7 +16,6 @@ button {
 body,
 .body {
   overflow-x: hidden;
-  /* height: 100vh; */
 }
 /***.body is class that wrapped everything
 i use it because for some reason overflow
