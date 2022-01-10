@@ -13,9 +13,16 @@ button {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
-body {
+body,
+.body {
   overflow-x: hidden;
   /* height: 100vh; */
+}
+/***.body is class that wrapped everything
+i use it because for some reason overflow
+doesn't work on body tag proprely on mobile***/
+.body {
+  height: 100vh;
 }
 /*************BASIC STYLE******************/
 h1,
